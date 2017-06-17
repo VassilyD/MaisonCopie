@@ -1,0 +1,64 @@
+body {
+	font-family: ;
+    margin: 0;
+    padding: 0;
+}
+
+
+.container-max {
+	width: 100%;
+}
+
+
+/*------- Barre de navigation ---------*/
+/*
+.navbar {
+	width: 90%;
+	margin: auto;
+	background-color: #111111;
+	color: #DEDEDE;
+	height: 40px;
+}
+*/
+.navbar {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar ul li {
+    float: left;
+    margin: 0;
+    padding: 0;
+	vertical-align: middle;
+}
+
+.navbar ul li a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 14px 16px;
+    color: #DEDEDE;
+}
+
+.navbar ul li a:hover {
+    background-color: #111;
+    color: #DEDEDE;
+}
+
+.navbar ul li a.active {
+	background-color: #DEDEDE;
+	color: #111111;
+}
+
+
+/*------- /navbar ---------------------*/
