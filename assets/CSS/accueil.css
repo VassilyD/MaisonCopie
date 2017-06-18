@@ -67,11 +67,6 @@ body {
     background-color: #333;
     margin: 0;
     padding: 0;
-    position: fixed;
-    top: 0;
-    width: 800px;
-    left: 50%;
-    transform: translateX(-50%);
 }
 
 .navbar ul li {
@@ -99,7 +94,19 @@ body {
 	color: #111111;
 }
 
+.login {
+    margin: 0;
+    padding: 0;
+    width: 800px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
 
+.login form input, .login form span {
+	height: 30px;
+	padding : 0;
+}
 /*------- /navbar ---------------------*/
 
 
@@ -108,20 +115,49 @@ body {
 /*------- Header ----------------------*/
 
 #header {
-	background-image: url(../img/header.jpg);
-    background-repeat: no-repeat;
-    height: 280px;
-    position: relative;
-    top: 0;
-    width: 800px;
-    left: 50%;
-    transform: translateX(-50%);
+	text-align: center;
+	text-transform: uppercase;
 }
+
+/*------- /Header ---------------------*/
+
+
+
+
+/*------- Corps -----------------------*/
+
+#corps .left-part {
+	background-color: blue;
+}
+
+#corps .central-part {
+	background-color: white;
+}
+
+#corps .right-part {
+	background-color: red;
+}
+
+
+
+/*------- /Corps ----------------------*/
+
+
+
+
+
+
+
 
 @media only screen and (max-width: 800px) {
     /* For mobile phones: */
     
 	.navbar ul {
+    	left: 0;
+    	transform: translateX(0);
+	}
+
+	.login {
     	left: 0;
     	transform: translateX(0);
 	}
@@ -132,9 +168,3 @@ body {
 	}
 
 }
-
-
-/*------- /Header ---------------------*/
-
-
-
