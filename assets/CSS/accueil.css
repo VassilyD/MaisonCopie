@@ -25,6 +25,7 @@ body {
 [class*="col-"] {
     float: left;
     padding: 15px;
+	height: auto;
 }
 
 .col-1 {width: 8.33%;}
@@ -40,7 +41,13 @@ body {
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
 
-
+.row::before, .row::after {
+	display: table;
+	content: " ";
+}
+.row::after {
+  clear: both;
+}
 /*------- /responsive part ------------*/
 
 
@@ -126,17 +133,15 @@ body {
 
 /*------- Corps -----------------------*/
 
+#corps .right-part {
+	background-color: red;
+}
+
+/*---- left -------*/
+
 #corps .left-part {
 	background-color: blue;
 	color: lightgreen;
-}
-
-#corps .central-part {
-	background-color: white;
-}
-
-#corps .right-part {
-	background-color: red;
 }
 
 #corps table, #corps tr {
@@ -158,6 +163,24 @@ body {
     height:100%;
     width:100%;
     position:absolute;
+}
+
+/*---- central ----*/
+
+#corps .central-part {
+	background-color: white;
+}
+
+.central-part img {
+	width: 100%;
+	height: auto;
+}
+
+/*---- right ----*/
+
+.right-part img {
+	width: 100%;
+	height: auto;
 }
 
 /*------- /Corps ----------------------*/
