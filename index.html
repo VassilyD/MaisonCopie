@@ -3,6 +3,8 @@
 	<head>
 		<title>Maison de la copie: Faites votre devis photocopie en ligne réponse immédiates PDF</title>
 
+		<meta charset="utf-8">
+
 		<link href="assets/CSS/accueil.css" rel="stylesheet">
 		<link href="assets/CSS/font-awesome.min.css" rel="stylesheet">
 	</head>
@@ -10,28 +12,8 @@
 
 	<body>
 		<div class="container-max">
-			<div class="navbar row">
-				<div class="col-3 left-part">
-
-				</div>
-				<div class="col-6 central-part">
-					<div class="row">
-						<ul>
-							<li class="col-4"><a class="active" href="#header">Accueil</a></li>
-							<li class="col-4"><a href="#devis">Devis</a></li>
-							<li class="col-4"><a href="#contact">Contact</a></li>
-						</ul>
-					</div>
-				</div>
-				<div class="col-3 right-part">
-
-				</div>
-			</div>
 			<div class="login row">
-				<div class="col-3 left-part">
-
-				</div>
-				<div class="col-6 central-part">
+				<div class="col-12 central-part">
 					<div class="row">
 						<form name="form1" method="post" action="about_login/fx_sql_look_visiteur.php" target="_top">
 							<span class="col-5">Login : <input name="searchID" class="fg150owo12C2px" type="text" id="searchID" value="" size="15" maxlength="15"></span>
@@ -39,9 +21,6 @@
 							<input class="fg150owo12C2px col-2" name="go" type="submit" id="go" value="CONNEXION">
 						</form>
 					</div>
-				</div>
-				<div class="col-3 right-part">
-
 				</div>
 			</div>
 		</div>
@@ -103,11 +82,11 @@
 					<h4>COMPTE UTILISATEUR EXPRESS :</h4>
 					Remplissez uniquement les 3 champs obligatoires (Statut + nom + email )<br>Vous serez connecté immédiatement avec accès illimité et gratuit aux devis-en-ligne!*
 					<form action="/mcfr7_TWINVCP9/about_login/login_form1DECADE.php" method="post" name="form1" target="_self">
-						<table width="500" border="0" align="left" cellpadding="5" cellspacing="0">
-			                <tr class="F15" > 
-			                  <td width="20">(*)</td>
-			                  <td width="200"> <div align="left"><font size="2">Votre statut</font></div></td>
-			                  <td width="0"> <div align="left"> 
+						<table border="0" align="left" cellpadding="5" cellspacing="0">
+			                <tr> 
+			                  <td>(*)</td>
+			                  <td> <div align="left"><font size="2">Votre statut</font></div></td>
+			                  <td> <div align="left"> 
 			                      <select name="csp" id="csp">
 			                        <option value="" selected></option>
 			                        <option value="Particulier">Particulier</option>
@@ -117,22 +96,22 @@
 			                        <option value="Etudiant">Etudiant</option>
 			                      </select>
 			                    </div></tr>
-			                <tr class="F15" > 
-			                  <td width="20">(*)</td>
-			                  <td width="200"> <div align="left"><font size="2">Votre nom 
+			                <tr> 
+			                  <td>(*)</td>
+			                  <td> <div align="left"><font size="2">Votre nom 
 			                      /<br>
 			                      Raison Sociale</font></div></td>
-			                  <td width="0"> <div align="left"> <font size="2"> 
-			                      <input name="ste" type="text" id="ste"  value="" size="50" maxlength="50">
+			                  <td> <div align="left"> <font size="2"> 
+			                      <input name="ste" type="text" id="ste"  value="" size="20" maxlength="50">
 			                      </font></div></td>
 			                </tr>
-			                <tr class="F15" > 
+			                <tr> 
 			                  <td>(*)</td>
-			                  <td width="200"> <div align="left"><font size="2"><font size="2"><font size="2">Email 
-			                      :</font></font></font></div></td>
-			                  <td width="0"> <div align="left"><font size="2"><font size="2"><font size="2"> 
-			                      <input name="email" type="text" id="email2" value="" size="40" maxlength="40">
-			                      </font></font></font></div></td>
+			                  <td> <div align="left"><font size="2">Email 
+			                      :</font></div></td>
+			                  <td> <div align="left"><font size="2"> 
+			                      <input name="email" type="text" id="email2" value="" size="20" maxlength="40">
+			                      </font></div></td>
 			                </tr>
 			                <tr> 
 			                  <td colspan="3"> 
@@ -141,91 +120,91 @@
 			                    </div>
 			                  </td>
 			                </tr>
-			                <tr class="F32" > 
+			                <tr> 
 			                  <td><font color="#999999">&nbsp;</font></td>
-			                  <td width="200"> <div align="left"><font size="2"><font size="2">Adresse 
+			                  <td> <div align="left"><font size="2"><font size="2">Adresse 
 			                      :</font></font></div></td>
-			                  <td width="0"> <div align="left"><font size="2"><font size="2"> 
-			                      <input name="adr1" type="text" id="adr12" value="" size="40" maxlength="40">
+			                  <td> <div align="left"><font size="2"><font size="2"> 
+			                      <input name="adr1" type="text" id="adr12" value="" size="20" maxlength="40">
 			                      </font></font></div></td>
 			                </tr>
-			                <tr class="F32" > 
+			                <tr> 
 			                  <td><font color="#999999">&nbsp;</font></td>
-			                  <td width="200"> <div align="left"><font size="2"><font size="2">Complement 
+			                  <td> <div align="left"><font size="2"><font size="2">Complement 
 			                      adresse : </font></font></div></td>
-			                  <td width="0"> <div align="left"><font size="2"><font size="2"> 
-			                      <input name="adr2" type="text" id="adr22" value="" size="40" maxlength="40">
+			                  <td> <div align="left"><font size="2"><font size="2"> 
+			                      <input name="adr2" type="text" id="adr22" value="" size="20" maxlength="40">
 			                      </font></font></div></td>
 			                </tr>
-			                <tr class="F32" > 
+			                <tr> 
 			                  <td><font color="#999999">&nbsp;</font></td>
-			                  <td width="200"> <div align="left"><font size="2"><font size="2">Ville 
+			                  <td> <div align="left"><font size="2"><font size="2">Ville 
 			                      :</font></font></div></td>
-			                  <td width="0"> <div align="left"><font size="2"> 
-			                      <input name="ville" type="text" id="ville2" value="" size="40" maxlength="40">
+			                  <td> <div align="left"><font size="2"> 
+			                      <input name="ville" type="text" id="ville2" value="" size="20" maxlength="40">
 			                      </font></div></td>
 			                </tr>
-			                <tr class="F32" > 
+			                <tr> 
 			                  <td><font color="#999999">&nbsp;</font></td>
-			                  <td width="200"> <div align="left"><font size="2"><font size="2">Code 
+			                  <td> <div align="left"><font size="2"><font size="2">Code 
 			                      postal :</font></font></div></td>
-			                  <td width="0"> <div align="left"><font size="2"> 
+			                  <td> <div align="left"><font size="2"> 
 			                      <input name="cp" type="text" id="cp2" value="" size="10" maxlength="10">
 			                      </font></div></td>
 			                </tr>
-			                <tr class="F32" > 
+			                <tr> 
 			                  <td><font color="#999999">&nbsp;</font></td>
-			                  <td width="200"> <div align="left"><font size="2"><font size="2"><font size="2">T&eacute;l 
+			                  <td> <div align="left"><font size="2"><font size="2"><font size="2">T&eacute;l 
 			                      1 (fixe):</font></font></font></div></td>
-			                  <td width="0"> <div align="left"><font size="2"><font size="2"> 
+			                  <td> <div align="left"><font size="2"><font size="2"> 
 			                      <input name="tel" type="text" id="tel3" value="" size="15" maxlength="15">
 			                      <font size="1">EX : 0299531923</font></font></font></div></td>
 			                </tr>
-			                <tr class="F32" > 
+			                <tr> 
 			                  <td><font color="#999999">&nbsp;</font></td>
 			                  <td> <div align="left"><font size="2"><font size="2"><font size="2">T&eacute;l 
 			                      2 (mobile) </font></font></font></div></td>
-			                  <td width="0"> <div align="left"><font size="2"><font size="2"> 
+			                  <td> <div align="left"><font size="2"><font size="2"> 
 			                      <input name="tel2" type="text" id="tel22" value="" size="15" maxlength="15">
 			                      <font size="1">EX : 0601531923</font></font></font></div></td>
 			                </tr>
 			            </table>
-			            <table width="500" border="0" align="left" cellpadding="5" cellspacing="0">
+			            <table border="0" align="left" cellpadding="5" cellspacing="0">
 		                      <tr class="F32" > 
-		                        <td width="11"><font color="#999999">&nbsp;</font></td>
-		                        <td width="141"> <div align="left"><font size="2"> Nom 
+		                        <td><font color="#999999">&nbsp;</font></td>
+		                        <td> <div align="left"><font size="2"> Nom 
 		                            </font></div></td>
-		                        <td width="418"> <div align="left"><font size="2"><font size="2"> 
+		                        <td> <div align="left"><font size="2"><font size="2"> 
 		                            <select name="genre" id="select5">
 		                              <option value="" selected></option>
 		                              <option value="Mr">Mr</option>
 		                              <option value="Mme">Mme</option>
 		                            </select>
-		                            <input name="nom" type="text" id="nom3" value="" size="40" maxlength="40">
+		                            <input name="nom" type="text" id="nom3" value="" size="20" maxlength="40">
 		                            </font></font></div></td>
 		                      </tr>
-		                      <tr class="F32" > 
-		                        <td width="11"><font color="#999999">&nbsp;</font></td>
-		                        <td width="141"> <div align="left"><font size="2"><font size="2">Prénom 
+		                      <tr> 
+		                        <td><font color="#999999">&nbsp;</font></td>
+		                        <td> <div align="left"><font size="2"><font size="2">Prénom 
 		                            :</font></font></div></td>
-		                        <td width="418"> <div align="left"><font size="2"><font size="2"> 
-		                            <input name="prenom" type="text" id="prenom3" value="" size="40" maxlength="40">
+		                        <td> <div align="left"><font size="2"><font size="2"> 
+		                            <input name="prenom" type="text" id="prenom3" value="" size="20" maxlength="40">
 		                            </font></font></div></td>
 		                      </tr>
-		                      <tr class="F32" > 
-		                        <td width="11"><font color="#999999">&nbsp;</font></td>
-		                        <td width="141"> <div align="left"><font size="2"><font size="2">Fonction 
+		                      <tr> 
+		                        <td><font color="#999999">&nbsp;</font></td>
+		                        <td> <div align="left"><font size="2"><font size="2">Fonction 
 		                            dans l'organisation:</font></font></div></td>
-		                        <td width="418"> <div align="left"><font size="2"><font size="2"> 
-		                            <input name="fonction" type="text" id="fonction3" value="" size="40" maxlength="40" >
+		                        <td> <div align="left"><font size="2"><font size="2"> 
+		                            <input name="fonction" type="text" id="fonction3" value="" size="20" maxlength="40" >
 		                            </font></font></div></td>
 		                      </tr>
-		                      <tr class="F32" > 
-		                        <td width="11" height="79"><font color="#999999">&nbsp;</font></td>
-		                        <td width="141" valign="top"> <div align="left"><font size="2">Informations 
+		                      <tr> 
+		                        <td height="79"><font color="#999999">&nbsp;</font></td>
+		                        <td valign="top"> <div align="left"><font size="2">Informations 
 		                            compl&eacute;mentaires libres</font></div></td>
-		                        <td width="418" valign="top"> <div align="left"> 
-		                            <textarea name="infos" cols="50" rows="3" id="textarea2"></textarea>
+		                        <td valign="top"> <div align="left"> 
+		                            <textarea name="infos" cols="25" rows="3" id="textarea2"></textarea>
 		                          </div></td>
 		                      </tr>
 			                <tr> 
@@ -265,6 +244,15 @@
 					</form>
 				</div>
 				<div class="col-4 right-part">
+					<p>Alii summum decus in carruchis solito altioribus et ambitioso vestium cultu ponentes sudant sub ponderibus lacernarum, quas in collis insertas cingulis ipsis adnectunt nimia subtegminum tenuitate perflabiles, expandentes eas crebris agitationibus maximeque sinistra, ut longiores fimbriae tunicaeque perspicue luceant varietate liciorum effigiatae in species animalium multiformes.</p>
+
+					<p>Quare hoc quidem praeceptum, cuiuscumque est, ad tollendam amicitiam valet; illud potius praecipiendum fuit, ut eam diligentiam adhiberemus in amicitiis comparandis, ut ne quando amare inciperemus eum, quem aliquando odisse possemus. Quin etiam si minus felices in diligendo fuissemus, ferendum id Scipio potius quam inimicitiarum tempus cogitandum putabat.</p>
+
+					<p>Quae dum ita struuntur, indicatum est apud Tyrum indumentum regale textum occulte, incertum quo locante vel cuius usibus apparatum. ideoque rector provinciae tunc pater Apollinaris eiusdem nominis ut conscius ductus est aliique congregati sunt ex diversis civitatibus multi, qui atrocium criminum ponderibus urgebantur.</p>
+
+					<p>Quaestione igitur per multiplices dilatata fortunas cum ambigerentur quaedam, non nulla levius actitata constaret, post multorum clades Apollinares ambo pater et filius in exilium acti cum ad locum Crateras nomine pervenissent, villam scilicet suam quae ab Antiochia vicensimo et quarto disiungitur lapide, ut mandatum est, fractis cruribus occiduntur.</p>
+
+					<p>Quare hoc quidem praeceptum, cuiuscumque est, ad tollendam amicitiam valet; illud potius praecipiendum fuit, ut eam diligentiam adhiberemus in amicitiis comparandis, ut ne quando amare inciperemus eum, quem aliquando odisse possemus. Quin etiam si minus felices in diligendo fuissemus, ferendum id Scipio potius quam inimicitiarum tempus cogitandum putabat.<p>
 				</div>
 			</div>
 		</div>

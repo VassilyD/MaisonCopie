@@ -135,6 +135,8 @@ body {
 
 #corps .right-part {
 	background-color: red;
+    height: 1200px;
+    color: #eee;
 }
 
 /*---- left -------*/
@@ -142,6 +144,7 @@ body {
 #corps .left-part {
 	background-color: blue;
 	color: lightgreen;
+    height: 1200px;
 }
 
 #corps table, #corps tr {
@@ -169,6 +172,7 @@ body {
 
 #corps .central-part {
 	background-color: white;
+    height: 1200px;
 }
 
 .central-part img {
